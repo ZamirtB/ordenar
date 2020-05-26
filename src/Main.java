@@ -72,7 +72,7 @@ public class Main {
                 String x1 = Integer.toString(a);
                 String x2 = Integer.toString(b);
                 String x3 = Integer.toString(c);
-                int x4 = Integer.parseInt(( x1 + "" + x2 + "" + x3));
+                int x4 = Integer.parseInt(( x1 + "/" + x2 + "/" + x3));
                 Integer x5 = Integer.parseInt(String.valueOf(x4));
                 vector2[j] = x5;
             }
